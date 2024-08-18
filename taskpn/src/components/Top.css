@@ -1,0 +1,105 @@
+/* src/components/Top.css */
+@import url("https://fonts.googleapis.com/css2?family=Georgia:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  display: border-box;
+}
+
+.patient-notes-container {
+  font-family: "Georgia", serif;
+  color: #fff;
+  background-color: #2f6173;
+  padding: 20px;
+  text-align: center;
+}
+
+.patient-notes-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.patient-notes-header h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.patient-notes-header nav {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.patient-notes-header nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.patient-notes-header nav ul li {
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.patient-notes-header .login-link {
+  margin-left: auto;
+  cursor: pointer;
+}
+
+.patient-notes-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+}
+
+.patient-notes-content {
+  max-width: 45%;
+  text-align: left;
+}
+
+.patient-notes-content h2 {
+  font-size: 36px;
+  margin: 20px 0;
+  font-weight: bold;
+}
+
+.patient-notes-content p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.trial-button {
+  background-color: #c1f0d6;
+  color: #29576a;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  transition-duration: 300ms;
+}
+
+.trial-button:hover {
+  background-color: #7be8a8;
+}
+
+.patient-notes-image-container {
+  width: 50%;
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.half-image-left {
+  width: 150%;
+  transform: translateX(40%);
+}
